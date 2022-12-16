@@ -1,0 +1,70 @@
+
+    
+   
+    <div class="navbar">
+        <ul>
+            <li>
+                <a routerLink="/datos">
+                    <img 
+                    src="/assets/datos.jpg" 
+                    alt=""
+                    (mouseover)="changeBg1()"
+                    (mouseout)="restoreBg()"
+                    >
+                </a>                    
+                <p>{{card1}}</p>
+            </li>
+            <li>
+                <a routerLink="/exp">
+                    <img 
+                    src="/assets/experiencia.jpg" 
+                    alt=""
+                    (mouseover)="changeBg2()"
+                    (mouseout)="restoreBg()"
+                    >
+                </a>
+                <p>{{card2}}</p>
+            </li>
+            <li>
+                <a href="/form">
+                    <img src="/assets/formacion.jpg" 
+                    alt=""
+                    (mouseover)="changeBg3()"
+                    (mouseout)="restoreBg()"
+                    >
+                </a>
+                <p>{{card3}}</p>
+            </li>
+            <li>
+                <a href="/comp">
+                    <img src="/assets/competencias.jpg" 
+                    alt=""
+                    (mouseover)="changeBg4()"
+                    (mouseout)="restoreBg()"
+                    >
+                </a>
+                <p>{{card4}}</p>
+            </li>
+            <li>
+                <a href="/int">
+                    <img src="/assets/intereses.jpg" 
+                    alt=""
+                    (mouseover)="changeBg5()"
+                    (mouseout)="restoreBg()"
+                    >
+                </a>
+                <p>{{card5}}</p>
+            </li>
+        </ul>
+    </div>
+
+    <article>
+        <h1 *ngIf= "bg == 1">Conocé al autor del portfolio</h1>
+        <h1 *ngIf= "bg == 2">Experiencia laboral</h1>
+        <h1 *ngIf= "bg == 3">Repaso de estudios del autor</h1>
+        <h1 *ngIf= "bg == 4">Conocimientos extra </h1>
+        <h1 *ngIf= "bg == 5">Qué intereses tiene el autor</h1>
+    </article>
+
+
+

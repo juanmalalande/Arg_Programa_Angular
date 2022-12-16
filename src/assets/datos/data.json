@@ -1,0 +1,60 @@
+{    
+    "id": "Datos",
+    "name": "Juan Manuel Lalande",
+    "phone": "+5491169970451",
+    "mail": "juanmalalande@gmail.com",
+    "country": "CABA, Bs. As., Argentina",
+      
+        "experiencia": [{
+        "puesto": "Analista Sr. de Estrategia de Producto",
+        "empresa": "Telecom Argentina",
+        "fecha": "Desde abril 2020" },
+
+        {
+        "puesto": "Responsable Oficina Comercial Merlo",
+        "empresa": "Telecom Argentina",
+        "fecha": "Enero 2017 a marzo 2020"
+        },
+
+        {
+        "puesto": "Líder de Oficina Comercial (Caballito / Buenos Aires)",
+        "empresa": "Telecom Argentina",
+        "fecha": "Mayo 2013 a diciembre 2016"
+        },
+
+        {
+        "puesto": "Representante de Atención Personalizada",
+        "empresa": "Telecom Argentina",
+        "fecha": "Octubre 2011 a abril 2013"
+        }],
+
+        "formacion": [{
+            "titulo":"Tecnicatura en Marketing Estratégico",
+            "instituto": "IUEAN",
+            "date": "Enero 2008 a diciembre 2012"
+        },
+        {
+            "titulo":"Argentina Programa - Segunda Fase",
+            "instituto": "Ministerio de Desarrollo",
+            "date": "Julio 2022 - Actualidad"
+        }
+        ],
+
+        "skills":[
+            {
+                "skill1": "Inglés",
+                "skill2": "Frontend (HTML+CSS+JS)",
+                "skill3": "Herramientas de Diseño Adobe (Photosop / Illustrator)"
+            }
+        ],
+
+        "intereses":[
+            {
+                "int1": "Programación",
+                "int2": "Front/Back End",
+                "int3": "Videojuegos",
+                "int4": "Emprendimientos",
+                "int5": "Desarrollo de apps"
+            }
+        ]
+}

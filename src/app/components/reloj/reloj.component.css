@@ -1,0 +1,14 @@
+.DigitalTime {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 5px;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+}
